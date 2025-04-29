@@ -25,12 +25,25 @@ h2 {
     text-align: center;
 }
 
-.kep {
+.kep img {
     width: 70%;
     height: 15%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     max-width: auto;
+}
+
+.gitar-kep-jobbra {
+    float: left;
+    margin: 0 15px 10px 20px;
+    width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.1);
+}
+
+.clear {
+    clear: both;
 }
 
 
