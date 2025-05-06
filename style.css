@@ -26,6 +26,16 @@ p {
     text-align: justify;
 }
 
+.hasab-bal {
+    float: left;
+    width: 40%;
+}
+
+.hasab-jobb {
+    float: right;
+    width: 40%;
+}
+
 h2, h3 {
     text-align: center;
 }
@@ -51,7 +61,7 @@ h2, h3 {
     margin: 0 15px 10px 0;
 }
 
-.kep img {
+.kep, .abra {
     width: 70%;
     height: 15%;
     border: 1px solid rgba(0, 0, 0, 0.1);
