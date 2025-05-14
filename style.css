@@ -72,6 +72,11 @@ h2, h3 {
     display: block;
 }
 
+.abra:hover {
+    transform: scale(1.5);
+    transition: 2s;
+}
+
 .gitar-kep-jobbra {
     float: left;
     margin: 0 15px 10px 20px;
@@ -83,6 +88,18 @@ h2, h3 {
 
 .clear {
     clear: both;
+}
+
+.gitarmuveszek {
+    width: 80%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: auto;
+}
+
+.gitarmuveszek td, th {
+    border: 1px solid black;
+    padding: 5px;
 }
 
 
